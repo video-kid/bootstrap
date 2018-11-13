@@ -1,0 +1,17 @@
+.header {
+  width: 100vw;
+  background-image: url("../images/bg-intro.svg");
+  background-repeat: no-repeat;
+  &__image{
+    width: 80%;
+    margin: 110px auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .header {
+    height: 100vh;
+    background-image: none;
+    background-color: $darkblue;
+  }
+}

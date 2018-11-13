@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family:  $opensans;
+}
+
+h1, h2{
+  font-family: $raleway;
+  font-weight: 700;
+}
+
+p {
+  color: $gray;
+}
+
+//linie pomocnicze:
+.row * {
+  border: 1px dotted grey;
+}
